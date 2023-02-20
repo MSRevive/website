@@ -6,4 +6,4 @@ To get started with compiling the code, please follow the instruction on the [re
 ## Tags
 Creating tags can be done with ``git tag <version>``, then pushed the via repo on your current branch with ``git push origin <version>``
 
-Deleting tags can be done with ``git tag --delete <version>``, and then pushed to via repo with ``git push origin <version>``.
+Deleting tags can be done with ``git tag --delete <version>``, and then pushed to via repo with ``git push --delete origin <version>``.
