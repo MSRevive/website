@@ -24,7 +24,10 @@ The names are listed in ABC order.
 | Name | Role |
 | ---- | ------------ |
 | Alden Dwyer | Sound Wizard |
+| Age | 3D Modeling |
+| Aze-M | Programming |
 | Dehoth | Mapping |
+| Furion | 3D Modeling & Mapping |
 | p-trick | FuzzNet |
 | The Oyster Hippopotamus | Mapping |
 

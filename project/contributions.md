@@ -17,11 +17,3 @@ By submitting your contribution to Master Sword Rebirth, you agree to the follow
 6. You also agree that the project maintainers have the right to change or modify your contributions as they see fit to improve the project.
  
 By submitting your contribution, you acknowledge that you have read and agree to these terms and conditions.
-
-## Credits
-These are people who have made contributions to the project thus far. These people are not part of the team but have had their work incorporated into the game.
-
-| Name | Role |
-| ---- | ------------ |
-| Age ``Tsarenir#0429`` | 3D Modeling Work |
-| ``JonnyBoy0719#0001`` | General Help and GFX Work |

@@ -5,7 +5,7 @@ A few of the maps are missing their creators so they've been filled in with "Los
 
 | Name | Title | Creators |
 | ---- | ---------------- | ------ |
-| aleyesu | The Ruins of Aleyesu | rickler |
+| aleyesu | The Ruins of Aleyesu | Rickler |
 | aluhandra2 | Aluhandra Desert East | Rickler |
 | ara | The Siege of Ara | J |
 | b_castle | The Castle | P Barnum |
@@ -72,7 +72,7 @@ A few of the maps are missing their creators so they've been filled in with "Los
 | thanatos | Thanatos Mountain | J |
 | the_keep | The Bandit Keep | LittleFrodo |
 | the_wall1, 2 | The Wall Series | skillasuar |
-| thornlands_north | North Thornlands | |
+| thornlands_north | North Thornlands | Dridje |
 | thornlands | The Thornlands | Lord Maz |
 | tundra | The Frozen Tundra | Joe |
 | umulak | The Tombs of Umulak | Dridje |
