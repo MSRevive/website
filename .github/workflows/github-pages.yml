@@ -1,18 +1,24 @@
 name: GitHub pages
+
 on:
   push:
     branches:
       - 'main'
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@v3
+
       - name: install dependencies
         run: yarn
+
       - name: build
         run: yarn run build
+
       - name: deploy
         if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3
