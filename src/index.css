@@ -1,0 +1,28 @@
+:root {
+    --txColour: #9C9E9E;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #000; /*02060A*/
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+a,
+a:focus,
+a:active {
+    outline: none;
+    color: var(--txColour);
+}
+
+a:hover {
+    color: var(--txColour);
+    text-decoration: underline;
+}
