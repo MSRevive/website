@@ -1,17 +1,24 @@
+:root {
+    --bgColour: #060D13; /*02060A*/
+    --txColour: #606262;
+    --accentColour: #CF9139;
+    --linkColour: #9C9E9E;
+}
+
 a,
 a:focus,
 a:active {
     outline: none;
-    color: #9C9E9E;
+    color: var(--txColour);
 }
 
 a:hover {
-    color: #9C9E9E;
+    color: var(--txColour);
     text-decoration: underline;
 }
 
 body {
-    background-color: #02060A;
+    background-color: var(--bgColour); /*02060A*/
     /*background-image: url("http://7-themes.com/data_images/out/14/6817014-image.jpg");*/
 }
 
@@ -47,8 +54,10 @@ convas {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    width: 100%;
+    width: 90%;
     margin-bottom: -60px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Sidebar*/
@@ -70,7 +79,8 @@ convas {
     margin: 0;
     padding: 0;
     list-style: none;
-    color: #606262;
+    color: var(--txColour);
+    /* color: #606262; */
 }
 
 .sidebar-nav li {
@@ -85,20 +95,26 @@ convas {
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #606262;
+    color: var(--txColour);
+    /* color: #606262; */
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
 
-.sidebar-nav li a:hover {
+.sidebar-nav li .act {
     text-decoration: none;
-    color: #CF9139;
+    color: var(--accentColour);
     padding-left: 35px;
 }
 
-.sidebar-nav li a:active,
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: var(--accentColour);
+    padding-left: 35px;
+}
+
 .sidebar-nav li a:focus {
     text-decoration: none;
 }
@@ -109,8 +125,8 @@ convas {
     height: 45px;
     font-size: 18px;
     line-height: 45px;
-    color: #CF9139;
-    border-bottom: 1px solid #CF9139;
+    color: var(--accentColour);
+    border-bottom: 1px solid var(--accentColour);
 }
 
 /*Picture of the Moment*/
@@ -132,7 +148,8 @@ convas {
 .imageWrapper .subTitle {
     font-size: 11px;
     text-align: center;
-    color: #606262;
+    /* color: #606262; */
+    color: var(--txColour);
     width: 99%;
 }
 
@@ -142,7 +159,7 @@ convas {
     min-height: 100%;
     padding: 15px;
     left: 250px;
-    background-color: #02080C; /*#02080C*/
+    background-color: var(--bgColour); /*#02080C*/
     border-left: 1px solid #080D11;
 }
 
@@ -159,7 +176,7 @@ convas {
 }
 
 .content-wrapper {
-    background-color: #02060A;
+    background-color: var(--bgColour);
     width: 100%;
     min-height: 100px;
     height: auto;
@@ -178,8 +195,8 @@ convas {
     background: -o-linear-gradient(#0B1115, #050A0E, #0B1115);
     background: -webkit-linear-gradient(#0B1115, #050A0E, #0B1115);
     background: linear-gradient(#0B1115, #050A0E, #0B1115);
-    color: #CF9139;
-    border-bottom: 1px solid #CF9139;
+    color: var(--accentColour);
+    border-bottom: 1px solid var(--accentColour);
 }
 
 .content-wrapper .title a,
@@ -189,7 +206,7 @@ convas {
     font-size: 18px;
     text-indent: 25px;
     background-color: #050A0E;
-    color: #CF9139;
+    color: var(--accentColour);
     text-decoration: none;
 }
 
@@ -199,7 +216,7 @@ convas {
     font-size: 18px;
     text-indent: 25px;
     background-color: #050A0E;
-    color: #CF9139;
+    color: var(--accentColour);
     text-decoration: underline;
 }
 
@@ -207,7 +224,7 @@ convas {
     background-image: url();
     background-repeat: no-repeat;
     position: relative;
-    border: 1px solid #CF9139;
+    border: 1px solid var(--accentColour);
     height: 60px;
     width: 60px;
     float: left;
@@ -218,20 +235,20 @@ convas {
 
 .content-wrapper .message {
     margin: 15px;
-    color: #606262;
+    color: var(--txColour);
 }
 
 .content-wrapper .message p {
-    color: #606262;
+    color: var(--txColour);
 }
 
 .content-wrapper .message a {
-    color: #9C9E9E;
+    color: var(--linkColour);
 }
 
 .content-wrapper .message a:hover {
     text-decoration: underline;
-    color: #9C9E9E;
+    color: var(--linkColour);
 }
 
 .content-wrapper .message .subTitle {
@@ -239,36 +256,36 @@ convas {
     font-size: 14px;
     line-height: 14px;
     width: 100%;
-    border-top: 1px solid #606262;
+    border-top: 1px solid var(--txColour);
     bottom: 0;
     padding-top: 5px;
-    color: #606262;
+    color: var(--txColour);
 }
 
 .content-wrapper .message .subTitle a {
-    color: #9C9E9E;
+    color: var(--linkColour);
 }
 
 .content-wrapper .message .subTitle a:hover {
     text-decoration: underline;
-    color: #9C9E9E;
+    color: var(--linkColour);
 }
 
 /*Downloads*/
 .table {
     width: 100%;
     table-layout: fixed;
-    color: #606262;
+    color: var(--txColour);
 }
 
 .table thead tr th,
 .table tbody tr td {
-    border-color: #606262;
+    border-color: var(--txColour);
 }
 
 /*Gallery*/
 .imageBox {
-    background-color: #02060A;
+    background-color: var(--bgColour);
     width: 162px;
     height: auto;
     min-height: 200px;
@@ -289,7 +306,7 @@ convas {
 .imageBox .subTitle {
     font-size: 11px;
     text-align: center;
-    color: #606262;
+    color: var(--txColour);
     width: 99%;
 }
 
@@ -298,7 +315,7 @@ convas {
     margin-bottom: 10px;
     width: 100%;
     height: 90px;
-    background-color: #02060A;
+    background-color: var(--bgColour);
     border: 1px solid #080D11;
     /*position: relative;*/
 }
@@ -319,7 +336,7 @@ convas {
     position: relative;
     font-size: 20px;
     font-weight: bold;
-    color: #CF9139;
+    color: var(--accentColour);
 }
 
 .devBox .position {
@@ -328,7 +345,7 @@ convas {
     top: 3px;
     position: relative;
     font-size: 16px;
-    color: #606262;
+    color: var(--txColour);
 }
 
 .devBox .website {
@@ -340,11 +357,11 @@ convas {
 }
 
 .devBox .website a {
-    color: #9C9E9E;
+    color: var(--linkColour);
 }
 
 .devBox .website a:hover {
-    color: #9C9E9E;
+    color: var(--linkColour);
     text-decoration: underline;
 }
 
@@ -356,13 +373,13 @@ convas {
 #footer {
     width: 100%;
     height: 60px;
-    background-color: #02060A;
+    background-color: var(--bgColour);
     border-top: 1px solid #080D11;
     overflow: hidden;
 }
 
 #footer p {
-    color: #606262;
+    color: var(--txColour);
     font-size: 10px;
 }
 
