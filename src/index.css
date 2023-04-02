@@ -1,5 +1,6 @@
 :root {
-    --txColour: #9C9E9E;
+	--txColour: #9C9E9E;
+	--accentColour: #CF9139;
 }
 
 html {
@@ -25,4 +26,8 @@ a:active {
 a:hover {
     color: var(--txColour);
     text-decoration: underline;
+}
+
+.content-wrapper {
+	
 }
