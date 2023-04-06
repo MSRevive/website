@@ -1,0 +1,24 @@
+.content {
+	background-color: #060D13;
+	height: auto;
+	min-height: 100px;
+	width: fit-content;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content a {
+	text-decoration: underline;
+}
+
+.content .title {
+	height: 50px;
+	font-size: 18px;
+	color: var(--accentColour);
+	border-bottom: 1px solid var(--accentColour);
+}
+
+.content p {
+	color: var(--txColour);
+}
