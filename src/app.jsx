@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { FaDiscord, FaHome, FaDownload, FaInfoCircle, FaUsers } from "react-icons/fa";
+import { FaDiscord, FaHome, FaDownload, FaInfoCircle, FaUsers, FaGithub } from "react-icons/fa";
 import Sidebar from './components/sidebar/sidebar';
 import NavItem from './components/sidebar/navitem';
 import SocItem from './components/sidebar/socitem';
@@ -17,7 +17,8 @@ function App() {
 				<NavItem link="/info" icon={<FaInfoCircle />} name="Info" />
 				<NavItem link="/team" icon={<FaUsers />} name="Dev Team" />
 				<SocItem>
-					<a href="#"><FaDiscord /></a>
+					<a href="https://discord.gg/nwJB9EhAN6"><FaDiscord /></a>
+					<a href="https://github.com/MSRevive"><FaGithub /></a>
 				</SocItem>
 			</Sidebar>
 
