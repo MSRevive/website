@@ -4,6 +4,7 @@
 	min-height: 100px;
 	width: 100%;
 	padding: 10px;
+	box-shadow: 7px 7px 10px #000;
 }
 
 .content a {

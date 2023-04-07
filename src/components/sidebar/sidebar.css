@@ -8,6 +8,7 @@
 	list-style: none;
 	font-size: 16px;
 	transition: width 200ms;
+	box-shadow: 7px 0px 7px -2px #000;
 }
 
 .sidebar .sidebar-header {
