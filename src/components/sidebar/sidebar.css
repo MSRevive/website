@@ -7,7 +7,7 @@
 	color: var(--txColour);
 	font-size: 16px;
 	transition: width 200ms;
-	box-shadow: 7px 0px 7px -2px #000;
+	box-shadow: 7px 0px 7px #000;
 }
 
 /*
@@ -17,13 +17,20 @@
 	display: flex;
 	align-items: center;
 	color: var(--txColour);
+	height: 52px;
 }
 
 .sidebar .sidebar-header .item {
 	cursor: pointer;
 	padding-right: 16px;
 	padding-left: 16px;
-	padding-top: 16px;
+	padding-top: 10px;
+	transition: color 200ms;
+}
+
+.sidebar .sidebar-header .item:hover {
+	color: var(--accentColour);
+	padding-left: 16px;
 }
 
 /*
@@ -42,7 +49,7 @@
 	height: 52px;
 	cursor: pointer;
 	overflow: hidden;
-	transition: all 0.5s;
+	transition: all 500ms;
 }
 
 .sidebar .sidebar-items .item i {
@@ -62,13 +69,18 @@
 .sidebar .sidebar-items .stack {
 	display: flex;
 	align-items: center;
-	height: 52px;
-	transition: all 0.5s;
+	flex-direction: row;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .sidebar .sidebar-items .stack a {
+	width: auto;
+	height: auto;
 	padding-left: 16px;
-	font-size: 16px;
+	font-size: 23px;
+	transition: color 500ms;
+	text-align: center;
 }
 
 .sidebar .sidebar-items .stack a:hover {
