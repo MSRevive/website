@@ -18,6 +18,10 @@
 	color: var(--txColour);
 }
 
+.sidebar .sidebar-header .item {
+	cursor: pointer;
+}
+
 .sidebar .sidebar-items {
 	display: flex;
 	flex-direction: column;
@@ -65,28 +69,3 @@
 	color: var(--accentColour);
 	padding-left: 16px;
 }
-
-/* .sidebar li {
-	text-indent: 16px;
-	line-height: 45px;
-}
-
-.sidebar li i {
-	text-indent: 0;
-}
-
-.sidebar a {
-	display: block;
-	text-decoration: none;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.sidebar a:active,
-.sidebar a:hover {
-	text-decoration: none;
-	color: #CF9139;
-	padding-left: 35px;
-} */

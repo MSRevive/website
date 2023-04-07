@@ -20,7 +20,7 @@ function Sidebar({ children }) {
 		return (
 			<div className={isExpanded ? "sidebar collapsed" : "sidebar"}>
 				<div className="sidebar-header">
-					<i className="fa fa-fw fa-bars" onClick={toggleHandler}></i>
+					<i className="item fa fa-fw fa-bars" onClick={toggleHandler}></i>
 				</div>
 	
 				{children}
@@ -30,7 +30,7 @@ function Sidebar({ children }) {
 		return (
 			<div className={isExpanded ? "sidebar" : "sidebar collapsed"}>
 				<div className="sidebar-header">
-					<i className="fa fa-fw fa-bars" onClick={toggleHandler}></i>
+					<i className="item fa fa-fw fa-bars" onClick={toggleHandler}></i>
 				</div>
 	
 				{children}
