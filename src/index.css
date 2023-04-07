@@ -9,6 +9,9 @@ html {
 }
 
 body {
+	background-image: url("./assets/example-bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-color: #000; /*02060A*/
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
@@ -43,4 +46,10 @@ a:hover {
 	margin-right: auto;
 	padding: 10px;
 	width: 75%;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }

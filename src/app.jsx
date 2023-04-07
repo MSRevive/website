@@ -15,6 +15,8 @@ function App() {
 
 			<div className="wrapper">
 				<div className="content-container">
+					<img src="./assets/hero.png" className="logo"></img>
+
 					<Content title="Unicorns and pixie dust!">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget risus in metus venenatis mattis. Quisque odio massa, efficitur quis vehicula vitae, congue nec orci. Nullam id ligula sit amet mauris pharetra hendrerit at in magna. Aenean id sollicitudin arcu, ac lacinia elit. Nunc sed ex dignissim, egestas diam vel, bibendum elit. Duis volutpat efficitur enim a congue. Praesent sodales ligula non semper ultricies. Vestibulum tristique vitae tellus eu volutpat. Suspendisse potenti. Phasellus vel nunc est. Nullam nec laoreet metus. In viverra tristique turpis, non rhoncus nibh euismod at. Integer vestibulum lacus ut lacus sodales faucibus. Donec augue dolor, pulvinar sed aliquam nec, maximus vitae magna. In eleifend orci a enim venenatis, non bibendum nibh gravida.
 
