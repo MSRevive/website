@@ -5,23 +5,30 @@
 	height: 100vh;
 	background-color: #060D13;
 	color: var(--txColour);
-	list-style: none;
 	font-size: 16px;
 	transition: width 200ms;
 	box-shadow: 7px 0px 7px -2px #000;
 }
 
+/*
+	Sidebar header
+*/
 .sidebar .sidebar-header {
 	display: flex;
 	align-items: center;
-	padding: 16px;
 	color: var(--txColour);
 }
 
 .sidebar .sidebar-header .item {
 	cursor: pointer;
+	padding-right: 16px;
+	padding-left: 16px;
+	padding-top: 16px;
 }
 
+/*
+	Sidebar items
+*/
 .sidebar .sidebar-items {
 	display: flex;
 	flex-direction: column;
@@ -50,6 +57,26 @@
 }
 
 /*
+	Sidebar items stacks
+*/
+.sidebar .sidebar-items .stack {
+	display: flex;
+	align-items: center;
+	height: 52px;
+	transition: all 0.5s;
+}
+
+.sidebar .sidebar-items .stack a {
+	padding-left: 16px;
+	font-size: 16px;
+}
+
+.sidebar .sidebar-items .stack a:hover {
+	color: var(--accentColour);
+	padding-left: 16px;
+}
+
+/*
 	Sidebar collapsed
 */
 .sidebar.collapsed {
@@ -68,4 +95,16 @@
 .sidebar.collapsed .sidebar-items .item:hover {
 	color: var(--accentColour);
 	padding-left: 16px;
+}
+
+.sidebar.collapsed .sidebar-items .stack {
+	flex-direction: column;
+	height: auto;
+	min-height: 52px;
+}
+
+.sidebar.collapsed .sidebar-items .stack a {
+	padding-bottom: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
 }

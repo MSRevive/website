@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
+import { FaBars } from "react-icons/fa";
 import './sidebar.css';
 
 function Sidebar({ children }) {
@@ -20,7 +21,9 @@ function Sidebar({ children }) {
 		return (
 			<div className={isExpanded ? "sidebar collapsed" : "sidebar"}>
 				<div className="sidebar-header">
-					<i className="item fa fa-fw fa-bars" onClick={toggleHandler}></i>
+					<div className="item">
+						<i onClick={toggleHandler}><FaBars /></i>
+					</div>
 				</div>
 	
 				{children}
@@ -30,7 +33,9 @@ function Sidebar({ children }) {
 		return (
 			<div className={isExpanded ? "sidebar" : "sidebar collapsed"}>
 				<div className="sidebar-header">
-					<i className="item fa fa-fw fa-bars" onClick={toggleHandler}></i>
+					<div className="item">
+						<i onClick={toggleHandler}><FaBars /></i>
+					</div>
 				</div>
 	
 				{children}

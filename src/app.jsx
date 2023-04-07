@@ -2,15 +2,21 @@ import React from 'react';
 import Sidebar from './components/sidebar/sidebar';
 import NavItem from './components/sidebar/navitem';
 import Content from './components/content/content';
+import { FaDiscord, FaBars } from "react-icons/fa";
 
 function App() {
 	return (
 		<div className="app">
 			<Sidebar>
-				<NavItem icon="fa-home" name="About" />
-				<NavItem icon="fa-download" name="Downloads" />
-				<NavItem icon="fa-info" name="Info" />
-				<NavItem icon="fa-user" name="Dev Team" />
+				<NavItem icon={<FaBars />} name="About" />
+				<NavItem icon={<FaBars />} name="Downloads" />
+				<NavItem icon={<FaBars />} name="Info" />
+				<NavItem icon={<FaBars />} name="Dev Team" />
+				<NavItem type="stack">
+					<a href="#"><FaDiscord /></a>
+					<a href="#"><FaDiscord /></a>
+					<a href="#"><FaDiscord /></a>
+				</NavItem>
 			</Sidebar>
 
 			<div className="wrapper">
@@ -40,6 +46,8 @@ Aenean maximus est at tempor mollis. Nam id ipsum tortor. Donec congue ante lore
 
 Fusce dapibus, ante et aliquet efficitur, est justo sodales erat, sed finibus libero urna sit amet sapien. Nullam nulla dui, bibendum ac lacus vel, maximus bibendum mauris. Curabitur ut ornare metus. Morbi eget tristique libero. Donec volutpat euismod elit, vel rutrum lectus interdum vitae. Sed ac ipsum nec ligula vehicula rhoncus a quis arcu. Duis pretium libero nec nunc dignissim, ac vehicula turpis convallis. Maecenas at maximus velit. Sed posuere malesuada cursus. Sed pharetra dui in sapien ultrices tempor. Vestibulum ut urna velit. Aliquam at massa metus. Cras ultricies orci vel erat congue, sed pretium odio elementum. Curabitur at metus rhoncus, cursus orci id, laoreet magna. Aliquam dictum metus in maximus bibendum. 
 					</Content>
+
+					<div className="footer">&#169; Team MSRebirth. Goldsource & Half-Life are trademarks of Valve Corporation.</div>
 				</div>
 			</div>
 		</div>
