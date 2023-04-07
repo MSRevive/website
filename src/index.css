@@ -17,6 +17,7 @@ body {
 	font-size: 14px;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 
 a,
@@ -34,11 +35,13 @@ a:hover {
 .app {
 	display: flex;
 	flex-direction: row;
+	height: 100%;
 }
 
 .wrapper {
 	width: 100%;
-	overflow: auto;
+	height: 100vh;
+	overflow-y: scroll;
 }
 
 .content-container {
