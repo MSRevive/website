@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { FaDiscord, FaHome, FaDownload, FaInfoCircle, FaUsers, FaGithub } from "react-icons/fa";
+import Page from './components/page';
 import Sidebar from './components/sidebar/sidebar';
 import NavItem from './components/sidebar/navitem';
 import SocItem from './components/sidebar/socitem';
@@ -27,11 +28,11 @@ function App() {
 					<img src="./assets/hero.png" className="logo"></img>
 
 					<Routes>
-						<Route path="/" element={<Home />} />
-						<Route path="/downloads" element={<NotDone />} />
-						<Route path="/info" element={<NotDone />} />
-						<Route path="/team" element={<NotDone />} />
-						<Route path="*" element={<NotFound />} />
+						<Route path="/" element={<Page title="Home"><Home /></Page>} />
+						<Route path="/downloads" element={<Page title="Downloads"><NotDone /></Page>} />
+						<Route path="/info" element={<Page title="Info"><NotDone /></Page>} />
+						<Route path="/team" element={<Page title="Team"><NotDone /></Page>} />
+						<Route path="*" element={<Page title="404"><NotFound /></Page>} />
 					</Routes>
 
 					<div className="footer">&#169; Team MSRebirth. Goldsource & Half-Life are trademarks of Valve Corporation.</div>
@@ -40,5 +41,18 @@ function App() {
 		</div>
 	);
 }
+
+{/* <Route 
+							path="/" 
+							render={(props) => (
+								<Page title="Home">
+									<Home />
+								</Page>
+							)}
+						/>
+						<Route path="/downloads" element={<NotDone />} />
+						<Route path="/info" element={<NotDone />} />
+						<Route path="/team" element={<NotDone />} />
+						<Route path="*" element={<NotFound />} /> */}
 
 export default App
