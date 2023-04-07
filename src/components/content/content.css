@@ -1,5 +1,5 @@
 .content {
-	background-color: #060D13;
+	background-color: var(--bgColour);
 	height: auto;
 	min-height: 100px;
 	width: 100%;
