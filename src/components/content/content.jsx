@@ -1,13 +1,16 @@
 import React from 'react';
 import './content.css';
 
-function Content()
+function Content(props)
 {
+	let title = props.title;
+	let text = props.children;
+
 	return (
 		<div className="content">
-			<div className="title">Magical unicorns and pixie dust!</div>
+			<div className="title">{title}</div>
 			<p>
-				Some random text here.
+				{text}
 			</p>
 		</div>
 	);
