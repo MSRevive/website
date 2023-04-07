@@ -13,6 +13,11 @@
 /*
 	Sidebar header
 */
+.sidebar a:active,
+.sidebar a:hover {
+	text-decoration: none;
+}
+
 .sidebar .sidebar-header {
 	display: flex;
 	align-items: center;
