@@ -15,6 +15,14 @@
 	text-align: center;
 }
 
+.content table {
+	width: 100%;
+}
+
+.content table th {
+	text-align: center;
+}
+
 .content a {
 	text-decoration: underline;
 }
