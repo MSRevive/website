@@ -6,6 +6,7 @@ import Sidebar from './components/sidebar/sidebar';
 import NavItem from './components/sidebar/navitem';
 import SocItem from './components/sidebar/socitem';
 import Home from './pages/home';
+import Team from './pages/team';
 import NotFound from './pages/notfound';
 import NotDone from './pages/notdone';
 
@@ -31,7 +32,7 @@ function App() {
 						<Route path="/" element={<Page title="Home"><Home /></Page>} />
 						<Route path="/downloads" element={<Page title="Downloads"><NotDone /></Page>} />
 						<Route path="/info" element={<Page title="Info"><NotDone /></Page>} />
-						<Route path="/team" element={<Page title="Team"><NotDone /></Page>} />
+						<Route path="/team" element={<Page title="Team"><Team /></Page>} />
 						<Route path="*" element={<Page title="404"><NotFound /></Page>} />
 					</Routes>
 
@@ -41,18 +42,5 @@ function App() {
 		</div>
 	);
 }
-
-{/* <Route 
-							path="/" 
-							render={(props) => (
-								<Page title="Home">
-									<Home />
-								</Page>
-							)}
-						/>
-						<Route path="/downloads" element={<NotDone />} />
-						<Route path="/info" element={<NotDone />} />
-						<Route path="/team" element={<NotDone />} />
-						<Route path="*" element={<NotFound />} /> */}
 
 export default App
