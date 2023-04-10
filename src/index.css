@@ -19,6 +19,7 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	color: var(--txColour);
 }
 
 a,
@@ -63,4 +64,5 @@ a:hover {
 
 .footer {
 	text-align: center;
+	color: #000;
 }

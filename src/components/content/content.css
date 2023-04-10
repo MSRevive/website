@@ -8,6 +8,13 @@
 	margin-bottom: 20px;
 }
 
+.content .center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
 .content a {
 	text-decoration: underline;
 }
