@@ -11,7 +11,7 @@ function NavItem(props) {
 		<div className="sidebar-items">
 			<Link to={link} className="item">
 				<i>{icon}</i>
-				<span className="text">{name}</span>
+				<span>{name}</span>
 			</Link>
 		</div>
 	);
