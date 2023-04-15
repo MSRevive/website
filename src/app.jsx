@@ -7,6 +7,7 @@ import NavItem from './components/sidebar/navitem';
 import SocItem from './components/sidebar/socitem';
 import Home from './pages/home';
 import Team from './pages/team';
+import GalleryPage from './pages/gallerypage';
 import Downloads from './pages/downloads';
 import NotFound from './pages/notfound';
 import NotDone from './pages/notdone';
@@ -34,7 +35,7 @@ function App() {
 						<Route path="/" element={<Page title="Home"><Home /></Page>} />
 						<Route path="/downloads" element={<Page title="Downloads"><Downloads /></Page>} />
 						<Route path="/info" element={<Page title="Info"><NotDone /></Page>} />
-						<Route path="/gallery" element={<Page title="Gallery"><NotDone /></Page>} />
+						<Route path="/gallery" element={<Page title="Gallery"><GalleryPage /></Page>} />
 						<Route path="/team" element={<Page title="Team"><Team /></Page>} />
 						<Route path="*" element={<Page title="404"><NotFound /></Page>} />
 					</Routes>

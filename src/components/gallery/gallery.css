@@ -1,0 +1,29 @@
+.gallery-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+	width: 100%;
+	height: auto;
+}
+
+.gallery-container .picture {
+	--size: 200px;
+
+	width: var(--size);
+	height: var(--size);
+	background-color: #000;
+	margin: 5px;
+	/* aspect-ratio: 1; */
+	outline: calc(var(--size)/2) solid #0009;
+	outline-offset: calc(var(--size)/-2);
+	cursor: pointer;
+	transition: 300ms;
+}
+
+.gallery-container .picture:hover {
+	outline: 5px solid var(--accentColour);
+	outline-offset: 0px;
+}
