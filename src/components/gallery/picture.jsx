@@ -6,7 +6,10 @@ function Picture(props)
 	let link = props.link;
 
 	return (
-		<img className="picture" src={link} />
+		<div className="imgbox">
+			<img className="image" src={link} />
+			<div className="text">by calum</div>
+		</div>
 	);
 }
 
