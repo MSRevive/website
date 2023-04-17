@@ -10,7 +10,7 @@ html {
 }
 
 body {
-	background-image: url("./assets/example-bg.jpg");
+	background-image: url("./assets/gfx/example-bg.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-color: #000;
