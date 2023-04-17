@@ -29,7 +29,7 @@ function App() {
 
 			<div className="wrapper">
 				<div className="content-container">
-					<img src="./assets/gfx/hero.png" className="logo"></img>
+					<img src="./assets/gfx/hero.png" className="logo" />
 
 					<Routes>
 						<Route path="/" element={<Page title="Home"><Home /></Page>} />
