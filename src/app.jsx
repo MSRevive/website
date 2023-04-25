@@ -19,7 +19,6 @@ function App() {
 				<NavItem link="/" icon={<FaHome />} name="Home" />
 				<NavItem link="/downloads" icon={<FaDownload />} name="Downloads" />
 				<NavItem link="/info" icon={<FaInfoCircle />} name="Info" />
-				<NavItem link="/gallery" icon={<FaImages />} name="Gallery" />
 				<NavItem link="/team" icon={<FaUsers />} name="Dev Team" />
 				<SocItem>
 					<a href="https://discord.gg/nwJB9EhAN6"><FaDiscord /></a>
@@ -35,7 +34,6 @@ function App() {
 						<Route path="/" element={<Page title="Home"><Home /></Page>} />
 						<Route path="/downloads" element={<Page title="Downloads"><Downloads /></Page>} />
 						<Route path="/info" element={<Page title="Info"><NotDone /></Page>} />
-						<Route path="/gallery" element={<Page title="Gallery"><GalleryPage /></Page>} />
 						<Route path="/team" element={<Page title="Team"><Team /></Page>} />
 						<Route path="*" element={<Page title="404"><NotFound /></Page>} />
 					</Routes>
