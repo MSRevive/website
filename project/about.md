@@ -32,7 +32,7 @@ The names are listed in ABC order.
 | The Oyster Hippopotamus | Mapping |
 
 ## Original Developers
-Over the years of the game/mod there as been a lot of contributions that have made this game possible. [Here](https://msrebirth.com/project/special-thanks.html) is a semi-complete list of those who have made said contributions .
+Over the years of the game/mod there as been a lot of contributions that have made this game possible. [Here](https://msrebirth.net/project/special-thanks.html) is a semi-complete list of those who have made said contributions .
 
 ## Community Team
 A thank you to all of our community team members, you can find them on via Discord distinguished in a blue name or under the Mod Team category.
