@@ -7,7 +7,7 @@ function GalleryPage()
 	return (
 		<>
 			<Gallery>
-				<Picture link="./assets/wallpapers/Caluminium_2.png" />
+				<Picture link="./assets/wallpapers/Caluminium_2.png" author="Caluminium" />
 				<Picture />
 				<Picture />
 				<Picture />

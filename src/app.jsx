@@ -20,6 +20,7 @@ function App() {
 				<NavItem link="/downloads" icon={<FaDownload />} name="Downloads" />
 				<NavItem link="/info" icon={<FaInfoCircle />} name="Info" />
 				<NavItem link="/team" icon={<FaUsers />} name="Dev Team" />
+				<NavItem link="/gallery" icon={<FaImages />} name="Gallery" />
 				<SocItem>
 					<a href="https://discord.gg/nwJB9EhAN6"><FaDiscord /></a>
 					<a href="https://github.com/MSRevive"><FaGithub /></a>
@@ -35,6 +36,7 @@ function App() {
 						<Route path="/downloads" element={<Page title="Downloads"><Downloads /></Page>} />
 						<Route path="/info" element={<Page title="Info"><NotDone /></Page>} />
 						<Route path="/team" element={<Page title="Team"><Team /></Page>} />
+						<Route path="/gallery" element={<Page title="Gallery"><GalleryPage /></Page>} />
 						<Route path="*" element={<Page title="404"><NotFound /></Page>} />
 					</Routes>
 

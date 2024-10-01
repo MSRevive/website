@@ -10,30 +10,37 @@
 }
 
 .gallery-container .imgbox {
-	--size: 200px;
+	--size: 205px;
+	--borderRadius: 10px;
 
 	width: var(--size);
 	height: calc(var(--size) + 20px);
-	margin: 20px;
+	margin: 15px;
 }
 
 .gallery-container .imgbox .image {
+	--newSize: 206px;
+
 	width: var(--size);
 	height: var(--size);
 	background-color: #000;
-	outline: calc(var(--size)/2) solid #0009;
-	outline-offset: calc(var(--size)/-2);
+	outline: calc(var(--newSize)/2) solid #0009;
+	outline-offset: calc(var(--newSize)/-2);
 	cursor: pointer;
 	transition: 300ms;
+	border-top-left-radius: var(--borderRadius);
+	border-top-right-radius: var(--borderRadius);
 }
 
 .gallery-container .imgbox .image:hover {
-	outline: 5px solid var(--accentColour);
-	outline-offset: -1px;
+	outline: 2px solid var(--accentColour);
+	outline-offset: 0;
 }
 
 .gallery-container .imgbox .text {
 	display: block;
 	background-color: var(--bgColour);
 	padding: 8px;
+	border-bottom-left-radius: var(--borderRadius);
+	border-bottom-right-radius: var(--borderRadius);
 }
