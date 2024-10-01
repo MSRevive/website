@@ -25,14 +25,15 @@ body {
 a,
 a:focus,
 a:active {
-    outline: none;
-    color: var(--txColour);
+	outline: none;
+	color: var(--txColour);
 	text-decoration: none;
+	border: none;
 }
 
 a:hover {
-    color: var(--txColour);
-    text-decoration: underline;
+	color: var(--txColour);
+	text-decoration: underline;
 }
 
 .app {
